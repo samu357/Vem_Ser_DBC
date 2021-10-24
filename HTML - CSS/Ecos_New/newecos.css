@@ -1,0 +1,54 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #153c5c;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  display: flex;
+}
+main {
+  width: 60%;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 25px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+footer a li {
+  text-decoration: none;
+}
+
+footer a:hover {
+}
+
+footer > nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+aside {
+  display: block;
+}
+.birthday {
+  display: flex;
+}
+.next-birthday {
+  display: flex;
+}
+
+.container {
+  display: flex;
+}

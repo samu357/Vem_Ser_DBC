@@ -1,0 +1,71 @@
+html,
+body,
+*,
+ul,
+li {
+  margin: 0%;
+  padding: 0%;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+header {
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+a::hover {
+  text-decoration: underline;
+}
+nav ul li {
+  display: inline;
+}
+nav li {
+  margin-left: 15px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+figcaption {
+  text-align: justify;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+}
+.container {
+  display: flex;
+  margin: 0 100px;
+}
+.picture {
+  width: 100%;
+}
+.picture-menor {
+  height: 200px;
+}
+
+.card {
+  flex-direction: column;
+}
+.card-2 {
+  margin-bottom: 15px;
+}
+
+.col {
+  display: flex;
+  margin: 30px;
+  flex: 1 0 0%;
+}

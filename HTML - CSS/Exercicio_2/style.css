@@ -1,0 +1,112 @@
+html,
+body,
+*,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(35, 47, 209);
+}
+
+header {
+  background-color: rgb(48, 47, 47);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+  font: bold;
+}
+nav ul li {
+  display: inline;
+  justify-content: start;
+  align-items: center;
+}
+nav li {
+  margin-left: 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font: 18px;
+}
+main {
+  justify-content: center;
+}
+a::hover {
+  text-decoration: underline;
+}
+iframe {
+  display: block;
+  margin: auto;
+  padding-bottom: 50px;
+}
+address {
+  color: white;
+  align-items: center;
+}
+footer {
+  background-color: rgb(48, 47, 47);
+  align-items: center;
+}
+img {
+  width: 300px;
+  align-items: center;
+}
+.cogumelo {
+  border: black solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgb(48, 47, 47);
+}
+.cogumelo p {
+  color: white;
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: white;
+}
+.header img {
+  width: 80px;
+  display: flex;
+  border-radius: 50%;
+}
+.header p {
+  color: white;
+}
+
+.container {
+  justify-content: center;
+}
+
+.container-foot {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+
+form {
+  text-align: justify;
+  width: 300px;
+  margin: 40px 0px;
+  padding: 30px 70px;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: white;
+}
