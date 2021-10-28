@@ -20,7 +20,7 @@ alert(`sua nota é ${media}`)
 
 if (media < 5) {
   alert('Você está Reprovado')
-} else if (media > 5 && media < 7) {
+} else if (media >= 5 && media < 7) {
   alert('Você está de Recupeação')
 } else {
   alert('Parabens, você esta aprovado')
