@@ -82,7 +82,8 @@ while (selecione !== 9 && selecioneString !== null) {
         break;
 
       case 4: // remover colaborador do projeto (usar filter())
-
+          var idParaRemoverColaborador = Number.parseInt(prompt('Se deseja remover o colaborador desse projeto, digite o id do colaborador ou cancele'));
+          
         break;
 
       case 5: // marcar ponto do colaborador 
