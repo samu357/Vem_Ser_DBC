@@ -25,29 +25,29 @@ var todosOsProdutos = (lista) => lista.forEach(elemento => console.log(elemento)
 
 
 
-var escolhaString = 1 
+var escolhaString = 1
 var escolha = Number.parseInt(escolhaString);
 
 
 
 while (escolha !== 5 && escolhaString !== null) {
-  escolhaString = prompt('Escolha um opção:\n \n 1 - Para cadastrar um produto\n 2 - Excluir Produto\n 3 - Encontrar Produto\n 4 - Lista de produtos cadastrados\n 5 - Sair');
+  escolhaString = prompt('Escolha um opção:\n \n 1 - Para cadastrar um produto\n 2 - Excluir Produto\n 3 - Pesquisar Produto\n 4 - Lista de produtos cadastrados\n 5 - Sair');
 
   escolha = Number.parseInt(escolhaString);
 
 
   if ((typeof escolha === 'number' && escolha.toString() !== 'NaN') && (escolha === 1 || escolha === 2 || escolha === 3 || escolha === 4 || escolha === 5)) {
     switch (escolha) {
-      case 1:
+      case 1: //adicionar produtos
         adicionaProduto(listaDeProdutos);
         break;
-      case 2:
+      case 2: //remover produtps
         listaDeProdutos = removeProduto(listaDeProdutos);
         break;
-      case 3:
+      case 3: // pesquisar Produto
         console.log(pesquisaProduto(listaDeProdutos));
         break;
-      case 4:
+      case 4: // listar produtos
         todosOsProdutos(listaDeProdutos);
         break;
     }
