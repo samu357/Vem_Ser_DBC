@@ -58,7 +58,20 @@ const validarSenha = () => { // deve retornar um boolean (true = válido, false 
 
     let possuiLetraMaiuscula = arrayChar.some( char => char.toLowerCase() !== char.toUpperCase() && char === char.toUpperCase() );
 
-    let possuiLetraMinuscula = arrayChar.some( char => char.toLowerCase() !== char.toUpperCase() && char === char.toLowerCase() );;
+    let possuiLetraMinuscula = arrayChar.some( char => char.toLowerCase() !== char.toUpperCase() && char === char.toLowerCase() );
+
+    if (!possuiOitoCaracteres) {
+        ehValido = false;
+    }
+    if (!possuiLetra) {
+        ehValido = false;
+    }
+    if (!possuiCharEspecial) {
+        ehValido = false;
+    }
+    if (!possuiNumero) {
+        ehValido = false;
+    }
     
     ehValido = possuiLetra && possuiOitoCaracteres && possuiLetraMaiuscula && possuiLetraMinuscula && possuiCharEspecial && possuiNumero && !naoPossuiEspacos;
 
