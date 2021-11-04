@@ -83,7 +83,9 @@ const validarData = () => { // deve retornar um boolean (true = válido, false =
         obs: caso a data (value) que está no input for inválido deverá alterar a class da span com id="date-registration-error" para que fique somente com text-danger, sem a parte que diz 'd-none' (display: none) para que mostre a mensagem de erro
             e caso a data seja válida adicione a class d-none para que o aviso suma
     */
-
+   let inputData = document.getElementById('date-input-registration');
+   
+   let dataDigitada = inputData.value;
     
 }
 const validarCadastro = () => {
