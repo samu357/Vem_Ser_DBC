@@ -1,0 +1,13 @@
+.mainDiv{
+  display: flex;
+  background-color: #007CC3;
+}
+
+.p{
+  text-align: justify;
+  padding: 30px;
+}
+
+.mainDiv img{
+  width: 100px;
+}

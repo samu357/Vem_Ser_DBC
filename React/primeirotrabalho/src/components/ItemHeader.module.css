@@ -1,0 +1,9 @@
+.divHeader{
+  align-items: center;
+  display: flex;
+  
+}
+
+.divHeader img{
+  width: 100px;
+}
