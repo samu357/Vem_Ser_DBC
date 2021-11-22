@@ -1,0 +1,38 @@
+
+.divContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+  
+.navHeader{
+  background-color: black;
+}
+
+.divContainer img{
+  cursor: pointer;
+  width: 100px;
+  padding: 0px;
+}
+.navHeader a{
+  color: #FFFFF0;
+  text-decoration: none;
+}
+.navHeader h1{
+  color: #FFFFF0;
+  padding-right: 35%;
+  cursor: pointer; 
+}
+
+.navHeader ul{
+  display: flex;
+}
+
+.navHeader li{
+  list-style: none;
+  color: #FFFFF0;
+  margin: 30px;
+  cursor: pointer;
+}
+
