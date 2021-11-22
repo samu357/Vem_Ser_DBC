@@ -26,7 +26,7 @@ const Saude = () => {
     <div>
       {loader ? <Loader/> :
       <section>
-        {list.length ? <Card list={list} /> : <p>Noticias</p>}
+       <Card list={list} />
       </section>
       }
     </div>
